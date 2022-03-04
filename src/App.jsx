@@ -1,13 +1,13 @@
 import React from 'react';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import Header from './pages/header/Header';
 
 function App() {
   return (
     <div className="app">
-      <h1>woop</h1>
-
       {/*Header*/}
+      <Header />
 
       {/* App body */}
         {/* Sidebar */}
